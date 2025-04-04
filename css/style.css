@@ -1,0 +1,37 @@
+table, tr, th{
+    border: 3px solid black;
+    border-collapse: separate;
+    
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.gris{
+    background-color: gray;
+}
+
+.rosa{
+    background-color: pink;
+}
+
+tbody tr:hover {
+    background-color: #c7e2e0;
+}
+
+table tr td:nth-child(2)::after {
+    content: "kCal";
+}
+
+table tr td:nth-child(3)::after {
+    content: "g";
+}
+
+table tr td:nth-child(4)::after {
+    content: "g";
+}
+
+table tr td:nth-child(5)::after {
+    content: "g";
+}
